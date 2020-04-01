@@ -181,7 +181,7 @@ figure {
 }
 
 .price-decor {
-    background-image: url("/assets/images/price-bg2.png");
+    background-image: url("./assets/images/price-bg2.png");
     padding: 0px 1px;
     font-weight: strong;
     font-size: 14px;
