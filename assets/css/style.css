@@ -202,7 +202,7 @@ figure {
 
 .btn-warning {
     float: center;
-    background-image: url("/assets/images/buy.png");
+    background-image: url("./assets/images/buy.png");
     background-color: #ec9c22;
     box-shadow: rgba(0,0,0,0.1);
     /*padding-bottom: 5px;*/
