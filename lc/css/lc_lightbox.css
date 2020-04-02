@@ -9,6 +9,7 @@
 	font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lato|Quicksand|Raleway|Roboto+Mono&display=swap');
 
 
 /*------------------------------------------------------------------
@@ -471,7 +472,7 @@
 	margin: 4px;
 	width: 28px;
 	height: 28px;
-	color: #6f6f6f;
+	color: #ec9c22;
 	position: relative;
 }
 .lcl_outer_cmd .lcl_close {
@@ -538,8 +539,8 @@
 	bottom: -1px;
     z-index: 5;
 	border-radius: 3px;
-	opcity: 0;
-	background: #6f6f6f;
+	opacity: 0;
+	background: #ec9c22;
 	
 	-webkit-transition: all .2s ease;
 	transition: 		all .2s ease;
@@ -605,6 +606,26 @@
 	margin-left: 36px !important;	
 }
 
+/* extra code */
+.lcl_btm_icon {  
+    float: right;
+    background: #ec9c22;
+    opacity: 0.5;
+
+}
+
+.lcl_btn_default {
+    background: #ec9c22;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+.lcl_btn_default:hover {
+    background-color: #ec9c22;
+}
+
+/* end of extra code */
 
 .lcl_counter {
 	cursor: default !important;
@@ -839,7 +860,7 @@
 	transition: 		transform .45s ease .1s, opacity .35s ease .1s;
 }
 #lcl_txt * {
-	font-family: 'Arial',​ 'sans-serif';	
+	font-family: 'Raleway',​ 'sans-serif';	
 }
 .lcl_no_txt #lcl_txt {
 	display: none !important;	

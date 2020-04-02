@@ -182,7 +182,7 @@ figure {
 
 .price-decor {
     background-image: url("./assets/images/price-bg2.png");
-    padding: 0px 1px;
+    padding: 0px 0px;
     font-weight: strong;
     font-size: 14px;
 }
@@ -199,6 +199,32 @@ figure {
 .right-icons-bottom {
     float: right;
 }
+.btn-default {
+    float: center;
+    background-color: #ec9c22;
+    box-shadow: rgba(0,0,0,0.1);
+    /*padding-bottom: 5px;*/
+    margin-bottom: 5px;
+    /*height: 25px;*/
+    /*width: 42px;*/
+    text-align: top;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid #666666;
+
+}
+
+.btn-default:hover {
+    color: #c7c7c7;
+    background-color:#7aaae0;
+    border: 1px solid #c7c7c7;
+}
+
+.btn-warning.active {
+    color: #c7c7c7;
+    background-color:#53b383;
+    border: 1px solid #c7c7c7;
+}
+
 
 .btn-warning {
     float: center;
@@ -224,7 +250,6 @@ figure {
     color: #c7c7c7;
     background-color:#53b383;
     border: 1px solid #c7c7c7;
-
 }
 
 .fas {
