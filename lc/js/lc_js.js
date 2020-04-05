@@ -7,4 +7,6 @@ lc_lightbox('.elem', {
   counter: true,
   buy_btn: true,
   // more options here
-}); 
+  data_position: 'lside',
+  nav_btn_pos: 'middle',
+})

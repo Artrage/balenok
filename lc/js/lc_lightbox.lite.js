@@ -46,7 +46,6 @@
 				'<div class="lcl_icon lcl_right_icon lcl_download" title="download"></div>'+
 				'<div class="lcl_icon lcl_right_icon lcl_thumbs_toggle" title="toggle thumbnails"></div>'+
                 '<div class="lcl_icon lcl_right_icon lcl_socials" title="toggle socials"></div>'+
-                '<div class="lcl_icon lcl_btm_icon lcl_btn_default" title="buy now"></div>'+
 
 			'</div>'+
 			'<div id="lcl_contents_wrap">'+
@@ -703,7 +702,6 @@
 			if(!o.slideshow)		{$('.lcl_play').remove();}
 			if(!o.txt_toggle_cmd) 	{$('.lcl_txt_toggle').remove();}
             if(!o.socials) 			{$('.lcl_socials').remove();}
-            if(!o.buy_btn) 			{$('.lcl_btn_default').remove();}
 			if(!o.download) 		{$('.lcl_download').remove();}
 			if(!o.counter || v.elems.length < 2 || !o.gallery) {$('.lcl_counter').remove();}
 			
@@ -2402,19 +2400,6 @@
 			}, 300);
 		};
         
-        /* toggle buy */
-        $(document).on('click', '.lcl_btn_default', function(e) {
-            if(obj != lcl_curr_ibj) {return true;}
-
-            else {
-				$('.lcl_socials_tt').removeClass('lcl_show_tt');
-				
-				setTimeout(function() {
-					$('.lcl_btn_default').removeClass('lcl_socials_shown').empty();	
-				}, 260);
-			}
-
-        })
 
 		/* toggle socials */
 		$(document).on('click', '.lcl_socials', function(e) {
